@@ -1,0 +1,54 @@
+:root {
+  --text-color: #000;
+  --main-color:#5833EB;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 2.4rem;
+  font-family: 'Lexend', sans-serif;
+  box-sizing: border-box;
+}
+
+
+
+.grid__full-w {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  border-radius: 30px;
+}
+
+.position_ab-center {
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+
+.jus-between {
+  justify-content: space-between;
+}
+
+p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #777E90;
+  margin: 0;
+}
